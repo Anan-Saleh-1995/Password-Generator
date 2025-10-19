@@ -13,7 +13,11 @@ const PasswordGenerator = () => {
 
       <div className="flex w-full gap-2">
         <div className="flex-1">
-          <Input disabled value={password} />
+          <Input
+            disabled
+            value={password}
+            aria-label="Generated password"
+          />
         </div>
         <div className="flex gap-2">
           <GenerateButton />
