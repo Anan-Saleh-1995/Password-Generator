@@ -1,4 +1,4 @@
-import React, { useState, type ChangeEvent } from 'react';
+import { useState, type ChangeEvent } from 'react';
 import { usePasswordContext } from '@/context/password';
 import { PASSWORD_SETTING_KEYS } from '@/core/constants';
 import { Label } from '@/components/ui/label';

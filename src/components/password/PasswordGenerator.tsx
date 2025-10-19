@@ -1,4 +1,3 @@
-import React from 'react';
 import { usePasswordContext } from '@/context/password';
 import { CopyButton, GenerateButton } from '@/components/password/actions';
 import { PasswordLengthControl } from '@/components/password/length';

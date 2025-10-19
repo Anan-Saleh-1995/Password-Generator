@@ -1,4 +1,3 @@
-import React from 'react';
 import { usePasswordContext } from '@/context/password';
 import { PASSWORD_SETTING_KEYS } from '@/core/constants';
 import { Label } from '@/components/ui/label';

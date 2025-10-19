@@ -1,5 +1,5 @@
 export function getCrypto(): Crypto {
-  if (typeof window !== 'undefined' && window.crypto?.getRandomValues) {
+  if (typeof window !== 'undefined' && typeof window?.crypto?.getRandomValues === 'function') {
     return window.crypto;
   }
   throw new Error('Secure crypto.getRandomValues not available in this context.');

@@ -1,4 +1,3 @@
-import React from 'react';
 import { CopyIcon } from '@radix-ui/react-icons';
 import { usePasswordContext } from '@/context/password';
 import { Button } from '@/components/ui/button';

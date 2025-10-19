@@ -1,4 +1,3 @@
-import React from 'react';
 import { usePasswordContext } from '@/context/password';
 import { generatePassword } from '@/core/passwordGenerator';
 import { UpdateIcon } from '@radix-ui/react-icons';
