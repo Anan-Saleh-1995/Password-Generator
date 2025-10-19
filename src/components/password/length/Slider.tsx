@@ -12,6 +12,7 @@ const PasswordLengthSlider = ({ value, onChange }: PasswordLengthSliderProps) =>
     max={128}
     step={1}
     onValueChange={onChange}
+    aria-label='Password length'
   />
 );
 
