@@ -7,8 +7,10 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <PasswordProvider>
-      <App />
-    </PasswordProvider>
+    <main>
+      <PasswordProvider>
+        <App />
+      </PasswordProvider>
+    </main>
   </StrictMode>,
 );
